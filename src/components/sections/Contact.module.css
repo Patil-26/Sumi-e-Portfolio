@@ -1,0 +1,119 @@
+.contactSection { border-top: 1px solid var(--canvas-border); }
+
+.header { margin-bottom: 5rem; }
+.heading { margin-bottom: 1.5rem; }
+.subtext { max-width: 460px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 6rem;
+  align-items: start;
+}
+
+.infoCol {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.contactItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1.8rem 0;
+  border-bottom: 1px solid var(--canvas-border);
+}
+
+.contactItem:first-child { border-top: 1px solid var(--canvas-border); }
+
+.contactValue {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--ink);
+  position: relative;
+  display: inline-block;
+  transition: opacity 0.3s;
+}
+
+.contactValue::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; left: 0;
+  width: 0; height: 1px;
+  background: var(--ink);
+  transition: width 0.4s var(--ease-brush);
+}
+
+.contactValue:hover::after { width: 100%; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  position: relative;
+}
+
+.fieldLabel {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0.4rem 0;
+  width: 100%;
+  resize: none;
+  caret-color: var(--ink);
+}
+
+.input::placeholder {
+  color: var(--ink-ghost);
+  font-style: italic;
+}
+
+.textarea { min-height: 110px; }
+
+.fieldLine {
+  height: 1px;
+  background: var(--canvas-border);
+  position: relative;
+  overflow: hidden;
+}
+
+.fieldLine::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 0; height: 100%;
+  background: var(--ink);
+  transition: width 0.5s var(--ease-brush);
+}
+
+.fieldFocused .fieldLine::after { width: 100%; }
+
+.submitBtn {
+  align-self: flex-start;
+  min-width: 175px;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; gap: 3rem; }
+}
