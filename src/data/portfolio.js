@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Atharva Patil",
-  role: "Data Scientist & Full-Stack Developer",
+  role: "Cybersecurity & Full-Stack Developer",
   tagline: "Crafting intelligence through data, art through code.",
   location: "Mumbai, India",
   email: "atharvappatil2005@gmail.com",
@@ -63,7 +63,7 @@ export const projects = [
     tags: ["Python", "Scapy", "Scikit-learn", "Random Forest", "SVM", "Logistic Regression", "Cybersecurity"],
     github: "https://github.com/Patil-26/Hybrid-ML-IDS.git",
     live: null,
-    featured: true,
+    featured: false,
   },
   {
     id: "02",
@@ -73,9 +73,9 @@ export const projects = [
     description:
       "This very portfolio — built with React, GSAP, and Framer Motion. Canvas-ink aesthetics, cinematic scroll animations, and premium micro-interactions.",
     tags: ["React", "GSAP", "Framer Motion", "CSS Modules"],
-    github: "https://github.com/Patil-26/portfolio",
+    github: "https://github.com/Patil-26/Sumi-e-Portfolio.git",
     live: null,
-    featured: true,
+    featured: false,
   },
   {
     id: "03",
