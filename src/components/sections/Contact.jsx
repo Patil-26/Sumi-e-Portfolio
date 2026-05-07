@@ -37,7 +37,7 @@ export default function Contact() {
             {[
               { label: 'Email', value: personalInfo.email, href: `mailto:${personalInfo.email}` },
               { label: 'GitHub', value: 'github.com/Patil-26', href: personalInfo.github },
-              { label: 'LinkedIn', value: 'linkedin.com/in/atharva-patil-046a25338', href: personalInfo.linkedin },
+              { label: 'LinkedIn', value: 'linkedin.com/in/patilatharva26', href: personalInfo.linkedin },
             ].map(({ label, value, href }) => (
               <div key={label} className={styles.contactItem}>
                 <span className="mono-text">{label}</span>
