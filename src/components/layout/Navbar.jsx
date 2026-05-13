@@ -53,7 +53,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={`${styles.resumeBtn} btn-ink hoverable`}>
+        <a href="/resume_v2.pdf" target="_blank" rel="noopener noreferrer" className={`${styles.resumeBtn} btn-ink hoverable`}>
           <span>Resume</span>
         </a>
 
