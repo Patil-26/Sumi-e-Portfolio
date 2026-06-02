@@ -59,7 +59,7 @@ export default function Experience() {
               <p className={styles.resumeLabel}>Full Résumé</p>
               <p className="mono-text">Available as PDF</p>
             </div>
-            <a href="/resume_v2.pdf" target="_blank" rel="noopener noreferrer" className="btn-ink hoverable">
+            <a href="/Atharva Patil Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-ink hoverable">
               <span>Download PDF</span>
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                 <path d="M6 1v7M3 5l3 3 3-3M1 10h10" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
